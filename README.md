@@ -84,6 +84,8 @@ Esta documentación describe la estructura y el diseño de la base de datos util
 
 En el repositorio encontraran  una carpta con el nombre backupdatabase en el que se encutra el archinvo script.ipynb. En este archivo se encuentran los scripts necesarios para lograr la restauracion de la base de datos.
 
+NOTA: Se realizo de esta manera ya que el archvio para restaurar confluctua con git
+
 ### Relación
 
 <img src="img/DBRelacion.png">
