@@ -71,8 +71,6 @@ El backend proporciona una serie de endpoints para interactuar con el front-end:
 - PUT /contact/:id
 - DELETE /contact/:id
 
-
-
 ## Base de Datos
 
 Esta documentación describe la estructura y el diseño de la base de datos utilizada en el proyecto . Proporciona información detallada sobre las tablas, campos, relaciones y otros aspectos importantes de la base de datos.
@@ -83,9 +81,8 @@ Esta documentación describe la estructura y el diseño de la base de datos util
 - Versión del SGBD: [2022]
 
 ### Restaurar Base de Datos
-En el repositorio encontraran  una carpta con el nombre backupdatabase en el que se encutra el archinvo script.ipynb que indica como hacer el respectivo proceso
 
-
+En el repositorio encontraran  una carpta con el nombre backupdatabase en el que se encutra el archinvo script.ipynb. En este archivo se encuentran los scripts necesarios para lograr la restauracion de la base de datos.
 
 ### Relación
 
