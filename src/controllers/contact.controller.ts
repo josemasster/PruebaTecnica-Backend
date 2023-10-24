@@ -20,9 +20,20 @@ export const updateContact = async (req: Request, res: Response) => {
 
 }
 
+export const deleteContact = async (req: Request, res: Response) => {
+    console.log('Enter Delete')
+    Database(req, res, query.deleteContact);
+}
 
 
-
+//Functions 
+function Error(error: unknown, res: Response) {
+    const statusCode = res.statusCode === 200 ? 500 : res.statusCode
+    res.status(statusCode).json({
+        status: statusCode,
+        Error: error
+    })
+}
 
 
 
