@@ -21,9 +21,8 @@ const dbSettings = {
     database: process.env.DB||'BD_PruebaTecnica',
     port: PORT ,
     options: {
-        // requestTimeout: 240000, // Tiempo de espera de la respuesta de la base de datos
-        encrypt: false, // funcion para azure
-        trustServerCertificate: false, // Indico que no tiene protocolo https y se usa http
+        encrypt: false, // for azure
+        trustServerCertificate: false, 
     }
 };
 
