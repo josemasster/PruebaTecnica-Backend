@@ -13,6 +13,7 @@ eliminación de estos.
 ## Requisitos del Sistema
 - Node.js
 - NPM (Node Package Manager)
+- Sql Server
 - Git
 
 ## Instalación
@@ -72,48 +73,31 @@ El backend proporciona una serie de endpoints para interactuar con el front-end:
 
 ## Base de Datos
 
-## Introducción
 Esta documentación describe la estructura y el diseño de la base de datos utilizada en el proyecto . Proporciona información detallada sobre las tablas, campos, relaciones y otros aspectos importantes de la base de datos.
 
-## Resumen
+### Restaurar Base de Datos
+```shell
+
+```
+
+
+### Resumen
 - Nombre de la Base de Datos: agenda_personal
 - Tipo de Sistema de Gestión de Base de Datos (SGBD): [sqlServer](https://www.microsoft.com/es-mx/sql-server/sql-server-2022)
 - Versión del SGBD: [2022]
 
-## Estructura de la Base de Datos
-### Tablas
-A continuación, se muestran las tablas presentes en la base de datos:
 
-1. **Tabla Contactos**
-   - Campos:
-     - Campo 1: [tipo de dato] - [descripción]
-     - Campo 2: [tipo de dato] - [descripción]
-     - ...
-
-2. **Tabla Telefonos**
-   - Descripción: [descripción de la tabla]
-   - Campos:
-     - Campo 1: [tipo de dato] - [descripción]
-     - Campo 2: [tipo de dato] - [descripción]
-     - ...
-
-3. **Tabla Correos**
-   - Descripción: [descripción de la tabla]
-   - Campos:
-     - Campo 1: [tipo de dato] - [descripción]
-     - Campo 2: [tipo de dato] - [descripción]
-     - ...
 
 ### Relación
 
-<img src="DBRelacion">
+<img src="img/DBRelacion.png">
 
 
 ## Estructura Empleada
 A continuacion detallamos la estructura aplicada en el  freamwork  de Node.js .
 
 
-<img src="img/arquitectura.png">
+<img src="img/Arquitectura.png">
 
 Adicional a esto, este back-end junto al repositorio de [fron-end](https://github.com/josemasster/PruebaTecnica-Front) conforman la solución de la prueba.
 
